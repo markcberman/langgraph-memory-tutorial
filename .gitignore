@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.pyc
+*.pyo
+*.pyd
+
+#Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+env/
+ENV/
+
+# Conda
+conda-meta/
+*.conda
+*.condarc
+
+# OS
+.DS_Store
+
+# Secrets
+.env
+
+# Vector stores / local data
+.chroma*/
